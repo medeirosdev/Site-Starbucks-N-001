@@ -1,0 +1,40 @@
+/* Style */
+
+body{
+    background-image: url("wallpaper.png");
+}
+
+
+/* Titulos e seus styles --------------------------------------------------------------------------- */
+h1{ font-family: 'Grape Nuts', cursive;
+    color:aliceblue;
+    font-size: 100px;
+    margin:2px;
+    padding:2px;
+
+}
+
+
+
+/* Imagens --------------------------------------------------------------------------- */
+#figure {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    float:right;
+
+}
+
+#legenda{
+    float:right;
+    color:aliceblue;
+    text-align: justify;
+}
+
+
+#frap{
+    max-width: 500px;
+    text-align: center;
+    justify-content: flex-end;
+
+}
