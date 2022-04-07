@@ -2,7 +2,9 @@
 
 body{
     background-image: linear-gradient(to bottom right,
-    rgb(223, 166, 93),rgb(218, 171, 110),rgb(228, 196, 155),
+    rgb(223, 166, 93)
+    ,rgb(218, 171, 110)
+    ,rgb(228, 196, 155),
     rgb(240, 208, 166)); }
 
 .Texto{
@@ -11,12 +13,14 @@ body{
     font-size:15px;
     text-align:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
 }
 
 
 #listasabores{
     text-align:center;
     color:#231709 ;
+    line-height: 25px;
 
 }
 /* Titulos e seus styles --------------------------------------------------------------------------- */
@@ -34,12 +38,10 @@ h3{
     font-size:30px
 }
 
-
-
 /* Imagens --------------------------------------------------------------------------- */
 #figure {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end;                           
     text-align: center;
     float:right;
 
@@ -81,4 +83,74 @@ h3{
     flex-direction:row;
     justify-content:space-evenly;
     margin:50px;
+}
+
+#div2{
+    display:flex;
+    text-align:center;
+    flex-direction:row;
+    background-color:#462b0c;
+    margin-left:500px;
+    margin-right:500px;
+    margin-top:100px;
+    border-radius: 10px;
+    border-color: #231709;
+    color:#c79553;
+}
+
+/* Menu de Nav --------------------------------------------------------------------------- */
+#Menu{
+    position:fixed;
+    top:0;
+    right:0;
+    background-color:#bd7313;
+    height:50px;
+    width:100%;
+
+}
+
+#MenuItens{
+    list-style: none;
+    display:flex;
+    justify-content:space-evenly;
+
+
+}
+
+a::after{
+    height:0;
+    left:0;
+    top:0;
+    transition-duration:0.6;
+    width:100%;
+    background-color:#45322E
+}
+
+a:hover::after{
+    height:100%;
+    color:#221401;
+}
+
+
+
+
+
+
+
+/* Botões --------------------------------------------------------------------------- */
+a.b1:link , a.b1:visited{
+    padding: 300px 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a.b1:hover , a.b1:active {
+    background-color:#c79553;
+    border-radius: 10px;
+    border-color: #231709;
+    color:#231709;
+    transition-duration:2;
+
 }
