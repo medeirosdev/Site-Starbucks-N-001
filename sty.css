@@ -99,6 +99,49 @@ h3{
 }
 
 /* Menu de Nav --------------------------------------------------------------------------- */
+a{ 
+    color:aliceblue;
+    text-decoration:none;
+    transition:0.7;
+
+}
+
+a:hover { 
+    opacity:0.7
+}
+
+.logo{
+    font-size: 24px;
+    text-transform:uppercase;
+    letter-spacing:4px;
+
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#442b0a;
+    height: 8vh;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    align-items: center;
+
+}
+.nav-list{
+    list-style:none;
+    display:flex;
+}
+
+.nav-list li{ 
+    letter-spacing:3px;
+    margin-left: 32px;
+}
+
+
+/*
 #Menu{
     position:fixed;
     top:0;
@@ -116,20 +159,9 @@ h3{
 
 
 }
+*/
 
-a::after{
-    height:0;
-    left:0;
-    top:0;
-    transition-duration:0.6;
-    width:100%;
-    background-color:#45322E
-}
 
-a:hover::after{
-    height:100%;
-    color:#221401;
-}
 
 
 
