@@ -39,12 +39,11 @@ nav {
     margin-left: 32px;
 }
 /* ---------------------------------------------------------------------------------------------------------------*/
+
 h1{
-    text-align: center;
+    color:#442b0a;
     animation-name: titulo;
     animation-duration: 2s;
-    color:#442b0a;
-
 }
 
 @keyframes titulo{
@@ -62,25 +61,37 @@ h1{
 }
 
 
-#sobre{
+
+
+#divimpacto{
     text-align: center;
     background-color: rgb(221, 171, 105);
-    color:#5a390d;
-    margin-left:100px; 
-    padding: 20px;
-    width: 400px;
-    box-shadow:0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.30);
+    margin-left:400px;
+    margin-right:400px;
+    height: 900px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.30);
+
 }
 
-#fotosobre{
-    float:right;
-    margin-left:100px;
-    padding:30px;
+.section{
+    text-align: center;
     width: 500px;
-    box-shadow:0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.30);
+    margin:auto;
 }
 
-#divsobre{
-    display:flex;
-    flex-direction: row;
+.img{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    
+}
+
+p{
+    width: 400px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #442b0a;
 }
