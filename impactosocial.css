@@ -44,6 +44,7 @@ h1{
     color:#442b0a;
     animation-name: titulo;
     animation-duration: 2s;
+    padding-top:30px;
 }
 
 @keyframes titulo{
@@ -59,7 +60,6 @@ h1{
         opacity: 1;   
     }
 }
-
 
 
 
