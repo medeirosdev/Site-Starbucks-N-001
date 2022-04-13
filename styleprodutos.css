@@ -21,7 +21,7 @@ nav {
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;
     background:#442b0a;
-    height: 8vh;
+    height: 12vh;
     position:fixed;
     top:0;
     left:0;
@@ -39,7 +39,7 @@ nav {
     margin-left: 32px;
 }
 /* Fim da barra de navegação --------------------------------------------------------------------------- */
-.img{
+.img1{
     width:300px;
     margin:15px;
     padding:5px;
@@ -51,14 +51,11 @@ nav {
     transition: 200ms ease-in-out;
 }
 
-img:hover {
+.img1:hover {
     width: 310px;
-    
-
-
-    
 
 }
+
 
 
 #divprodutos{
@@ -89,11 +86,14 @@ img:hover {
 h1{
     text-align: center;
     color: #442b0a;
+    margin:30px;
 }
 
 #geral{
     margin-left: 100px;
 }
+
+
 
 
 #foot1{
@@ -115,12 +115,14 @@ h1{
     
 }
 
-.redes{
+.redes1{
     width:30px;
     margin-right:15px;
     margin-top:15px;
     margin-bottom:15px;
-
-
+    transition: 0.5s;
     justify-content: space-around;
 }
+
+.redes1:hover {
+    width: 40px; }

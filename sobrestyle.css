@@ -21,7 +21,7 @@ nav {
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;
     background:#442b0a;
-    height: 8vh;
+    height: 12vh;
     position:fixed;
     top:0;
     left:0;
@@ -44,6 +44,7 @@ h1{
     animation-name: titulo;
     animation-duration: 2s;
     color:#442b0a;
+    margin:30px;
 
 }
 
@@ -109,7 +110,10 @@ h1{
     margin-right:15px;
     margin-top:15px;
     margin-bottom:15px;
-
-
     justify-content: space-around;
+}
+
+
+.redes:hover{
+    width:35px;
 }

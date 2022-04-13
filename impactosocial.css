@@ -21,7 +21,7 @@ nav {
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;
     background:#442b0a;
-    height: 8vh;
+    height: 12vh;
     position:fixed;
     top:0;
     left:0;
@@ -86,7 +86,7 @@ h1{
     
 }
 
-p{
+.p5{
     width: 400px;
     text-align: center;
     margin-top: 40px;
@@ -95,3 +95,39 @@ p{
     margin-right: 60px;
     color: #442b0a;
 }
+
+
+
+#foot1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 16px;
+
+
+}
+
+#foot2{
+    color:rgb(37, 36, 36);
+    opacity: 0.8;
+    
+}
+
+#redes1{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+
+.redes{
+    width:30px;
+    margin-right:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+    transition: 0.5s;
+    justify-content: space-around;
+}
+
+.redes1:hover {
+    width: 40px; }

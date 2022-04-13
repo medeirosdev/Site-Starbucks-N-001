@@ -123,7 +123,7 @@ nav {
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;
     background:#442b0a;
-    height: 8vh;
+    height: 12vh;
     position:fixed;
     top:0;
     left:0;
@@ -187,3 +187,10 @@ a.b1:hover , a.b1:active {
     transition-duration:2;
 
 }
+
+
+
+
+
+
+
