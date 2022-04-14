@@ -27,7 +27,7 @@ body{
 h1{ font-family: 'Grape Nuts', cursive;
     color: #45322E ;
     font-size: 100px;
-    margin:2px;
+    margin-top:80px;
     padding:2px;
     text-align: center;
 
@@ -172,7 +172,7 @@ nav {
 
 /* Botões --------------------------------------------------------------------------- */
 a.b1:link , a.b1:visited{
-    padding: 10px 10px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
